@@ -13,6 +13,7 @@ function App() {
         <About />
         <Slide />
         <Products />
+        <div style={{ height: "1000px" }}></div>
       </main>
     </div>
   );

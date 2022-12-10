@@ -28,7 +28,7 @@ const Navbar = () => {
         <ul className={iconIsActive ? "navbar-list showed" : "navbar-list"}>
           <NavbarListItem linkName="Strona główna" hrefDestination={"App"} />
           <NavbarListItem linkName="O nas" hrefDestination={"about"} />
-          <NavbarListItem linkName="Oferta" hrefDestination={"App"} />
+          <NavbarListItem linkName="Oferta" hrefDestination={"products"} />
           <NavbarListItem linkName="Przedstawiciele" hrefDestination={"App"} />
           <NavbarListItem linkName="Kontakt" hrefDestination={"App"} />
         </ul>

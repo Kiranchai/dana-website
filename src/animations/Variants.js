@@ -39,12 +39,6 @@ export const slideFromRight = {
 export const fadeIn = {
   visible: {
     opacity: 1,
-    // transition: {
-    //   duration: 0.75,
-    //   when: "beforeChildren",
-    //   staggerChildren: 1.5,
-    //   ease: "easeInOut",
-    // },
   },
   hidden: {
     opacity: 0,

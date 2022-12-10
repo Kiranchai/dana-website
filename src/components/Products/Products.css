@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(61, 61, 61);
+    
     margin-top: 25vh;
 }
 
@@ -19,15 +19,27 @@
     /* border-block: 1px dashed var(--golden); */
     border-bottom: 1px dashed var(--golden);
     text-shadow: 4px 4px black;
+    margin-top: var(--navbar-height);
+    background-color: rgb(61, 61, 61);
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
 }
 
 .product-category-container{
+    max-width: 100rem;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     padding: 2rem;
     gap: 1.5rem;
+    
 }
 
 .product-category{
