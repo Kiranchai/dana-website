@@ -9,7 +9,9 @@ const Welcome = () => {
     <motion.section
       variants={fadeIn}
       initial="hidden"
-      whileInView="visible"
+      animate="visible"
+      // whileInView="visible"
+      transition={{ duration: 1 }}
       className="welcome-section"
     >
       <img

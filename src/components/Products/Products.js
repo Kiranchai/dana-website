@@ -18,7 +18,8 @@ const Products = () => {
         <motion.h3
           variants={slideFromTop}
           initial="hidden"
-          whileInView="visible"
+          animate="visible"
+          // whileInView="visible"
           transition={{ duration: 1, delay: 0.5 }}
         >
           Co sprzedajemy?
@@ -28,17 +29,18 @@ const Products = () => {
         <motion.div
           variants={fadeIn}
           initial="hidden"
+          // animate="visible"
           whileInView="visible"
           transition={{
-            delay: 1.5,
-            staggerChildren: 1,
+            delay: 1,
+            staggerChildren: 0.5,
             when: "beforeChildren",
           }}
           className="product-category-container"
         >
           <motion.article
             variants={slideFromTop}
-            transition={{ duration: 0.75 }}
+            transition={{ duration: 0.5 }}
             className="product-category"
           >
             <header className="product-icon">{<FaShoppingCart />}</header>
@@ -53,7 +55,7 @@ const Products = () => {
           </motion.article>
           <motion.article
             variants={slideFromTop}
-            transition={{ duration: 0.75 }}
+            transition={{ duration: 0.5 }}
             className="product-category"
           >
             <header className="product-icon"> {<FaHamburger />}</header>
@@ -68,7 +70,7 @@ const Products = () => {
           </motion.article>
           <motion.article
             variants={slideFromTop}
-            transition={{ duration: 0.75 }}
+            transition={{ duration: 0.5 }}
             className="product-category"
           >
             <header className="product-icon"> {<FaIceCream />}</header>
@@ -81,6 +83,18 @@ const Products = () => {
             </ul>
           </motion.article>
         </motion.div>
+        <div className="products-bottom">
+          <motion.span
+            variants={slideFromTop}
+            initial="hidden"
+            animate="visible"
+            // whileInView="visible"
+            transition={{ duration: 0.75, delay: 3 }}
+          >
+            ... i <span style={{ color: "var(--golden)" }}>wiele, wiele</span>{" "}
+            innych produktów.
+          </motion.span>
+        </div>
       </div>
     </motion.section>
   );

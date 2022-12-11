@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Agents from "./components/Agents/Agents";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Slide from "./components/Slide/Slide";
@@ -13,7 +14,7 @@ function App() {
         <About />
         <Slide />
         <Products />
-        <div style={{ height: "1000px" }}></div>
+        <Agents />
       </main>
     </div>
   );
