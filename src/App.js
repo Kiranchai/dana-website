@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Slide from "./components/Slide/Slide";
 import Welcome from "./components/Welcome/Welcome";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Slide />
         <Products />
         <Agents />
+        <Contact />
       </main>
     </div>
   );

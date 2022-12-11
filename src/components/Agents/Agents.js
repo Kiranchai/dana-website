@@ -51,6 +51,7 @@ const Agents = () => {
       <motion.header
         variants={fadeIn}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView="visible"
         transition={{ duration: 1 }}
         className="agents-header"
@@ -60,6 +61,7 @@ const Agents = () => {
       <motion.div
         variants={fadeIn}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView="visible"
         transition={{
           delay: 0.5,
@@ -89,7 +91,6 @@ const Agents = () => {
           phoneNumber="+48 728 980 321"
         />
       </motion.div>
-      <span>Nie widzisz tu swojej miejscowości?</span>
     </section>
   );
 };

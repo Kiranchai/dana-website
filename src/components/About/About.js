@@ -10,6 +10,7 @@ const About = () => {
       <motion.div
         variants={fadeIn}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView="visible"
         transition={{ delay: 0.25 }}
         className="content-wrapper"
@@ -22,6 +23,7 @@ const About = () => {
             variants={slideFromLeft}
             initial="hidden"
             whileInView="visible"
+            viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
             className="about-content"
           >
@@ -45,6 +47,7 @@ const About = () => {
           <motion.div
             variants={fadeIn}
             initial="hidden"
+            viewport={{ once: true }}
             whileInView="visible"
             transition={{ duration: 1, delay: 0.25 }}
             className="about-img-wrapper"

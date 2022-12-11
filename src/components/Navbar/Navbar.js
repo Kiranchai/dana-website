@@ -29,8 +29,11 @@ const Navbar = () => {
           <NavbarListItem linkName="Strona główna" hrefDestination={"App"} />
           <NavbarListItem linkName="O nas" hrefDestination={"about"} />
           <NavbarListItem linkName="Oferta" hrefDestination={"products"} />
-          <NavbarListItem linkName="Przedstawiciele" hrefDestination={"App"} />
-          <NavbarListItem linkName="Kontakt" hrefDestination={"App"} />
+          <NavbarListItem
+            linkName="Przedstawiciele"
+            hrefDestination={"agents"}
+          />
+          <NavbarListItem linkName="Kontakt" hrefDestination={"contact"} />
         </ul>
       </nav>
       <div className="navbar-separator"></div>

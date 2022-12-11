@@ -9,7 +9,9 @@ const Products = () => {
     <motion.section
       variants={fadeIn}
       initial="hidden"
+      // animate="visible"
       whileInView="visible"
+      viewport={{ once: true }}
       transition={{ delay: 0.25, duration: 0.75 }}
       className="products-section"
       id="products"
@@ -19,7 +21,6 @@ const Products = () => {
           variants={slideFromTop}
           initial="hidden"
           animate="visible"
-          // whileInView="visible"
           transition={{ duration: 1, delay: 0.5 }}
         >
           Co sprzedajemy?
@@ -29,7 +30,7 @@ const Products = () => {
         <motion.div
           variants={fadeIn}
           initial="hidden"
-          // animate="visible"
+          viewport={{ once: true }}
           whileInView="visible"
           transition={{
             delay: 1,

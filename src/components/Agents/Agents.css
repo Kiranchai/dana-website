@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    
+    margin-bottom: 50vh;
 }
 
 .agents-header{
+    margin-top: var(--navbar-height);
     font-size: clamp(1rem, 12vw, 4rem);
     text-align: center;
     padding: 2rem;
