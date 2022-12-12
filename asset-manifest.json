@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dana-website/static/css/main.9bdf8ce1.css",
-    "main.js": "/dana-website/static/js/main.187c967c.js",
+    "main.css": "/dana-website/static/css/main.300c2e1d.css",
+    "main.js": "/dana-website/static/js/main.7c26a2af.js",
     "static/media/ice-cream-slide.png": "/dana-website/static/media/ice-cream-slide.9f8e07136de7756df245.png",
     "static/media/welcome-background.jpg": "/dana-website/static/media/welcome-background.42849e66f887d227f931.jpg",
     "static/media/about-image.png": "/dana-website/static/media/about-image.74eb12294418bce6a323.png",
     "index.html": "/dana-website/index.html",
-    "main.9bdf8ce1.css.map": "/dana-website/static/css/main.9bdf8ce1.css.map",
-    "main.187c967c.js.map": "/dana-website/static/js/main.187c967c.js.map"
+    "main.300c2e1d.css.map": "/dana-website/static/css/main.300c2e1d.css.map",
+    "main.7c26a2af.js.map": "/dana-website/static/js/main.7c26a2af.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bdf8ce1.css",
-    "static/js/main.187c967c.js"
+    "static/css/main.300c2e1d.css",
+    "static/js/main.7c26a2af.js"
   ]
 }
