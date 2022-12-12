@@ -55,7 +55,7 @@ const Contact = () => {
               gap: ".25rem",
             }}
           >
-            {<MdEmail />}:{" "}
+            {<MdEmail />}
             <span style={{ color: "var(--golden)" }}>biuro@dana.elblag.pl</span>
           </span>
 
@@ -67,7 +67,7 @@ const Contact = () => {
               gap: ".25rem",
             }}
           >
-            {<AiFillPhone />}:{" "}
+            {<AiFillPhone />}
             <span style={{ color: "var(--golden)" }}>+48 55 233 5000</span>
           </span>
         </motion.div>

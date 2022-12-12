@@ -14,10 +14,14 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-left">
-          <span>
-            <a className="logo-link" href="#App">
-              LOGO
-            </a>
+          <span
+            onClick={() => {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }}
+            className="logo-link"
+          >
+            LOGO
           </span>
 
           <span className="hamburger-span">

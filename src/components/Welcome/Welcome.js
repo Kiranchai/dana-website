@@ -2,7 +2,7 @@ import React from "react";
 import "./Welcome.css";
 import { motion } from "framer-motion";
 import { fadeIn, slideFromBottom } from "../../animations/Variants";
-import image from "../../images/welcome-background2.png";
+import image from "../../images/welcome-background.jpg";
 
 const Welcome = () => {
   return (
